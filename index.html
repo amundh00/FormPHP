@@ -6,7 +6,8 @@
     <title>FormPHP test document</title>
 </head>
 <body>
-    <form action="./form-handler.php">
+    <form action="./form-handler.php" method="post">
+        <label for="name">Name</label><input type="text" name="myname" id="nameid"><br>
         <label for="email">E-Mail</label><input type="email" name="email" id="emailid">
         <input type="submit">
     </form>
